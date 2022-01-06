@@ -7,6 +7,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100vh;
+    
 }
 
 .container {
@@ -15,7 +16,6 @@ html, body {
     display: flex;
     height: 100%;
     width: 100%;
-    
 }
 
 .card {
@@ -24,6 +24,14 @@ html, body {
     height: auto;
     padding: 30px;
     width: 350px;
+    transition: .5s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 255, 255, 0.8) 0px 14px 28px, rgba(0, 255, 255, 0.8) 0px 10px 10px;
+    transform: scale(1.05);
+
+
 }
 
 .card-image {
